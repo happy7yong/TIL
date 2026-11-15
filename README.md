@@ -37,6 +37,12 @@
 - [15 - STOMP 세션 로그 해석 (CONNECT ~ SEND)](Web/STOMP_Session_Log_Trace.md)
 - [16 - STOMP destination과 event type의 차이](Web/STOMP_Destination_vs_EventType.md)
 - [17 - Publish / Subscribe / Broadcast / Broker 구조 정리](Web/Pub_Sub_Broadcast.md)
+- [DOM이란 무엇인가요](Web/DOM.md)
+- [DNS](Web/DNS.md)
+- [CSRF](Web/CSRF.md)
+- [CORS](Web/CORS.md)
+- [WebSocket Race Condition](Web/WebSocket_Race_Condition.md)
+- [웹 네트워크 요청 흐름](Web/Network_Request_Flow.md)
 
 ### CS
 
@@ -77,6 +83,9 @@
 - [이벤트 루프와 콜백함수](JavaScript/Event_Loop_Callback.md)
 - [Object.is](JavaScript/Object_is.md)
 - [자바스크립트에서 객체가 저장되는 방법](JavaScript/Object_References_Memory.md)
+- [렉시컬 스코프와 스코프 체인](JavaScript/Lexical_Scope_Scope_Chain.md)
+- [호이스팅과 var / let / const TDZ](JavaScript/Hoisting_var_let_const_TDZ.md)
+- [블로킹과 논블로킹](JavaScript/Blocking_NonBlocking.md)
 
 ### Git
 
@@ -92,6 +101,7 @@
   - [04 - Commit 단계](./React/Rendering/04_Commit_Phase.md)
   - [05 - Fiber와 Concurrent Rendering](./React/Rendering/05_Fiber_Concurrent_Rendering.md)
   - [06 - Effect Lifecycle](./React/Rendering/06_Effect_Lifecycle.md)
+  - [07 - Virtual DOM](./React/Rendering/07_Virtual_DOM.md)
   - [React.memo / useCallback / useMemo](./React/Rendering/React_Memoization.md)
 - **Fundamentals**
   - [00 - Side Effect란 무엇인가](./React/Fundamentals/00_SideEffect.md)
@@ -149,6 +159,8 @@
 - **Misc**
   - [PL Meeting 메모](./React/PLmeeting.md)
   - [RHF + zod 정리](./React/RHF+zod.md)
+  - [React Portal](./React/Portal.md)
+  - [FE 단위 테스트: Vitest + React Testing Library](./React/Testing/Unit_Testing_Vitest_RTL.md)
 
 ### Next.js
 
@@ -160,6 +172,9 @@
 - [RSC에서 Server 안의 Client Component 실행 흐름](./Nextjs/RSC-server-client-execution-flow.md)
 - [Server Component와 Client Component](./Nextjs/RSC_Server_Client_Component.md)
 - [RSC Payload](./Nextjs/RSC_Payload.md)
+- [use client에 대한 오해](./Nextjs/Use_Client_Misconceptions.md)
+- [렌더링 전략](./Nextjs/Rendering_Strategies.md)
+- [서버 컴포넌트(RSC)](./Nextjs/RSC_Basics.md)
 - [BFF 프록시 패턴](./Nextjs/BFF-proxy.md)
 
 ### Infra / Cloud
