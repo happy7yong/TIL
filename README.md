@@ -72,6 +72,11 @@
 ### JavaScript
 
 - [[Deep Dive] 함수선언문 vs 함수표현식 vs 화살표 함수의 호이스팅 TDZ 차이 ](JavaScript/JS_Hoisting-TDZ-Function-Types.md)
+- [디바운싱, 쓰로틀링](JavaScript/Debounce_Throttle.md)
+- [Promise, resolve](JavaScript/Promise_Resolve.md)
+- [이벤트 루프와 콜백함수](JavaScript/Event_Loop_Callback.md)
+- [Object.is](JavaScript/Object_is.md)
+- [자바스크립트에서 객체가 저장되는 방법](JavaScript/Object_References_Memory.md)
 
 ### Git
 
@@ -79,6 +84,15 @@
 
 ### React
 
+- **Rendering**
+  - [00 - React 컴포넌트 렌더링 과정](./React/Rendering/00_Rendering_Overview.md)
+  - [01 - JSX와 React Element](./React/Rendering/01_JSX_React_Element.md)
+  - [02 - Update Queue와 Batching](./React/Rendering/02_Update_Queue_Batching.md)
+  - [03 - Render와 Reconciliation](./React/Rendering/03_Render_Reconciliation.md)
+  - [04 - Commit 단계](./React/Rendering/04_Commit_Phase.md)
+  - [05 - Fiber와 Concurrent Rendering](./React/Rendering/05_Fiber_Concurrent_Rendering.md)
+  - [06 - Effect Lifecycle](./React/Rendering/06_Effect_Lifecycle.md)
+  - [React.memo / useCallback / useMemo](./React/Rendering/React_Memoization.md)
 - **Fundamentals**
   - [00 - Side Effect란 무엇인가](./React/Fundamentals/00_SideEffect.md)
   - [01 - 순수 함수(Pure Function) 기본 개념](./React/Fundamentals/01_PureFunction.md)
@@ -103,6 +117,10 @@
   - [03 - React Query 캐시 메커니즘(Cache Mechanism)](./React/ReactQuery/03_RQ_CacheMechanism.md)
   - [04 - React Query의 메모리 구조 & GC(Garbage Collection)](./React/ReactQuery/04_RQ_GarbageCollection_and_Memory.md)
   - [05 - React Query 내부 구조: Action → Reducer → QueryState 흐름](./React/ReactQuery/05_RQ_Internal_Reducer.md)
+  - [06 - useQuery vs prefetchQuery](./React/ReactQuery/06_RQ_UseQuery_vs_PrefetchQuery.md)
+  - [07 - queryClient](./React/ReactQuery/07_RQ_QueryClient.md)
+  - [08 - gcTime, staleTime](./React/ReactQuery/08_RQ_GcTime_StaleTime.md)
+  - [09 - 캐시 무효화](./React/ReactQuery/09_RQ_Query_Invalidation.md)
 
 - **Architecture**
 
@@ -140,6 +158,8 @@
 - [브라우저/서버 캐시 종류 정리](./Nextjs/Cache-종류.md)
 - [TanStack, Next, App Shell 캐시 위치](./Nextjs/tanstack,next,appshell-캐시-위치.md)
 - [RSC에서 Server 안의 Client Component 실행 흐름](./Nextjs/RSC-server-client-execution-flow.md)
+- [Server Component와 Client Component](./Nextjs/RSC_Server_Client_Component.md)
+- [RSC Payload](./Nextjs/RSC_Payload.md)
 - [BFF 프록시 패턴](./Nextjs/BFF-proxy.md)
 
 ### Infra / Cloud
