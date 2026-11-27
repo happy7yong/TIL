@@ -1,0 +1,77 @@
+site_name: Ran | 뭇별의 장
+site_description: 남겨진 기록은 기억이 되어 나를 다음 행선지로 이끌어 준다.
+site_url: https://happy7yong.github.io/til/
+repo_url: https://github.com/happy7yong/til
+repo_name: happy7yong/til
+edit_uri: edit/main/
+
+# 레포 루트의 문서를 빌드 시점에 _site_src 로 복사해서 사용합니다.
+# (.github/scripts/prepare-docs.sh 참고 — 기존 폴더 구조는 그대로 둡니다)
+docs_dir: _site_src
+site_dir: _site
+
+theme:
+  name: material
+  language: ko
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: 다크 모드로 전환
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: 라이트 모드로 전환
+  font:
+    text: Noto Sans KR
+    code: JetBrains Mono
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.top
+    - navigation.indexes
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+
+plugins:
+  - search:
+      separator: '[\s\-_,:!=\[\]()"/]+'
+  - awesome-pages
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - def_list
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/happy7yong
